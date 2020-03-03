@@ -135,3 +135,11 @@ ul li a:focus{
     border-top-right-radius: 40px;
     border-bottom-right-radius: 40px;
 }
+@media(max-width:768px){
+    .service1,
+    .service2,
+    .service3,
+    .service4{
+        grid-column: 1/3;
+    }
+}
